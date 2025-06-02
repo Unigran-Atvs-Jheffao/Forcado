@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  #word {
+    font-size: 2rem;
+    letter-spacing: 0.5em;
+    margin: 20px 0;
+    user-select: none;
+  }
+
+  #guessed-letters {
+    font-size: 2rem;
+    letter-spacing: 0.5em;
+    margin: 20px 0;
+    user-select: none;
+  }
+
+  #multiplier, #word-index {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  #scores {
+    margin-top: 30px;
+    text-align: left;
+  }
+  #scores ul {
+    list-style: none;
+    padding: 0;
+  }
+  #scores li {
+    margin-bottom: 5px;
+  }
+  input[type=text] {
+    font-size: 1.2rem;
+    width: 50px;
+    text-align: center;
+    text-transform: lowercase;
+  }
+  button {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    cursor: pointer;
+  }
