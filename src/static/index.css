@@ -12,7 +12,7 @@ body {
   }
 
   #guessed-letters {
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: 0.5em;
     margin: 20px 0;
     user-select: none;

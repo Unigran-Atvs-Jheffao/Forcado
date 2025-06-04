@@ -107,7 +107,11 @@ guessBtn.onclick = () => {
     }
 
     let values = guessedLetters.textContent.split(" ");
-    values.push(guess);
+    
+    if(!values.includes(guess)){
+        values.push(guess);
+    }
+    
     guessedLetters.textContent = values.sort().join(" ")
 
     socket.send(JSON.stringify({
